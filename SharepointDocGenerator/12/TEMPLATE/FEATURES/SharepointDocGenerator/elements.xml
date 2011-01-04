@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="D4033365-92F5-45c2-AD3C-7122AFF53DFF"
+    Title="Documentation Generator"
+    Location="Microsoft.SharePoint.SiteSettings"
+    GroupId="SiteAdministration"
+    Sequence="999"
+    RequireSiteAdministrator="TRUE">
+      <UrlAction Url="~site/_layouts/DocGenerator.aspx"/>
+  </CustomAction>
+</Elements>

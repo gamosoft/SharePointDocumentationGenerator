@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature
+    xmlns="http://schemas.microsoft.com/sharepoint/"
+    Id="FA3E891D-DA9B-4769-B2AA-D4BEDF6B8BEF"
+    Title="Sharepoint Documentation Generator"
+    Description="This feature adds the documentation generation option to the Site Settings page"
+    Version="1.0.0.0"
+    Hidden="false"
+    Scope="Web"
+    ActivateOnDefault="false"
+    ImageUrl="CONTENT.gif"
+    ReceiverAssembly="SharepointDocGenerator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d2509254a3c55f6"
+    ReceiverClass="SharepointDocGenerator.Code.SharepointDocGeneratorFeatureReceiver"
+    DefaultResourceFile="core">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>
+  </ElementManifests>
+</Feature>

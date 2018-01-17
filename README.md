@@ -22,7 +22,7 @@ Only users with administrator privileges will be able to use this option (site a
 If you want to make changes to the code and regenerate the WSP package, you can use WSPBuilder [http://wspbuilder.codeplex.com/](http://wspbuilder.codeplex.com/).
 
 ## Installation
-Installation is pretty simple using WSP deployment standards. Please check the [installation.md](installation.md) file for more information.
+Installation is pretty simple using WSP deployment standards. Please check the [INSTALLATION.md](./INSTALLATION.md) file for more information.
 
 ## Usage
 Just choose the desired fields, content types, etc... from the main screen and hit the _OK_ button.
